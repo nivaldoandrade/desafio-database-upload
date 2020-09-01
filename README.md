@@ -25,7 +25,7 @@ yarn dev:server
 ---
 ### Insomnia
 Tutorial de como importar Workspace para teste [Importing and Exporting Data.](https://support.insomnia.rest/article/52-importing-and-exporting-data)
-Download do [Workspace]().
+Download do [Workspace](https://github.com/nivaldoandrade/desafio-database-upload/blob/master/InsomniaData/desafio-database-upload.json).
 
 ---
 ### Rotas da aplicação
@@ -110,6 +110,7 @@ Download do [Workspace]().
 * DELETE /transactions/:id: A rota deleta uma transação com o id presente nos parâmetros da rota;
 
 * POST /transactions/import: A rota faz a importação de um arquivo com formato .csv contendo as mesmas informações necessárias para criação de uma transação id, title, value, type, category_id, created_at, updated_at, onde cada linha do arquivo CSV deve ser um novo registro para o banco de dados.
+[Exemplo](https://github.com/nivaldoandrade/desafio-database-upload/blob/master/file.csv)
 
 ____
 Desafio feito pela [RocketSeat](https://rocketseat.com.br/).
