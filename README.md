@@ -9,11 +9,11 @@ Uma aplicação que armazena transações financeiras de entrada e saída, permi
 # clonar o repositório
 git clone https://github.com/nivaldoandrade/desafio-database-upload
 
-# Instalar as dependência
+# Instalar as dependências
 yarn
 
 #Criação do Banco de dados
-Alterar as informação do arquivo ormconfig.json com as informação do seu banco de dados.
+Alterar as informações do arquivo ormconfig.json com as informação do seu banco de dados.
 
 # Run migrations
 yarn typeorm migration:run
