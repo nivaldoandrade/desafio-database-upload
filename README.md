@@ -13,7 +13,7 @@ git clone https://github.com/nivaldoandrade/desafio-database-upload
 yarn
 
 #Criação do Banco de dados
-Alterar as informações do arquivo ormconfig.json com as informação do seu banco de dados.
+Alterar as informações do arquivo ormconfig.json com as informações do seu banco de dados.
 
 # Run migrations
 yarn typeorm migration:run
